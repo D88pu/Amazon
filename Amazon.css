@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    font-family:Arial;
+    border: border-box;
+}
+
+.navbar{
+     
+    height: 60px;
+    background-color: rgb(14, 5, 5);
+    color: white;
+    display: flex;  /*similar row line me ayega*/
+    align-items: center;
+    justify-content: space-evenly;/*main aeccess left or right sare sare content ko evenly equale lar dega*/
+
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(" img2/b.webp");
+    background-size:cover;
+    height: 54px;
+    width: 100%;
+    align-items: center;
+     
+}
+
+.border{
+    border: 2px solid transparent; /*image ki bhahar ki border ko shahi kartha hai*/
+}
+
+.border:hover{
+    border: 2px solid rgb(99, 43, 43); /*haver ka matlab hai jo border nahi dikatha hai bho dikega*/
+}
+
+/*---------------box2---------------*/
+.add-second{
+    font-size:0.85rem;/**/
+    color:white;
+    margin-left:3px;
+    
+}
+.add-first{
+    font-size:0.85rem;
+    color: #cccccc;
+    margin-left:15px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;/*link ko align-items se kahi par kar skate hai*/
+}
+
+/*----------box3-----------*/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly; /*(horijentali ke liye useh hota hai)word and logo ko center me aa jatha hai*/
+    background-color: pink;
+    width: 24rem;
+    height:23px;
+    border-radius: 3px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width:500px ;
+    font-size:1rem; /*word ka size big or small*/
+    border: none;
+}
+
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(11, 10, 10);
+    background-color: yellow;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/*------------box4----------------*/
+span{
+    font-size: 0.7rem;
+}
+
+
+/*---------------box6-----------------*/
+.nav-cart i{
+    font-size:30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*--------------panel----------------------*/
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+      display:inline;
+      margin-left: 15px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/*------------hero section--------------*/
+
+.hero-section{
+    background-image: url("img2/D103625178_DesktopTallHero_3000x1200._CB574597993_.jpg");
+    height:400px;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end; /*flex-end ka use kisi bhi item ko niche lane ke liye kiya jatha hai*/
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+     
+    align-items: center;
+    justify-content: center;
+    font-size:0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+     
+}
+
+.hero-msg a{
+    color:#007185;
+}
+
+/*------------shop-section--------------------*/
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;/*Image jitani columan thi bho sab row me a jayegi */
+    justify-content: space-evenly;
+    background-color: #65adf5 ;
+     
+}
+.box{
+    /*border: 2px solid black;*/
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+
+.box-img{
+    height: 340px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat; /*image repeat nhai hogi*/
+}
+
+.box-content{
+    margin-left: 5px;
+    margin-right:10px ;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+/*----------------footer------------------*/
+.footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-top: 1px;
+}
+/*----------------------foot-panel2-----------------------*/
+.foot-panel2{
+    background-color:#222f3d;
+    height: 320px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+    
+}
+ul a {
+    display:block ;
+    font-size: 0.55;
+    margin: 15px;
+    color: #dddddd;
+}
+/*-------------------------foot-panel3-----------------------*/
+.foot-panel3 {
+    background-color:#030606; 
+    color: white;
+    border-top: 0.5px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("img2/b.webp");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+/*----------------foot-panel4------------------------------*/
+.foot-panel4{
+    background-color:#0f1111;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items:center;
+    display: block;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+    
+}
+ul a {
+    display:block ;
+    font-size: 0.58rem;
+    margin: 9px;
+    color: #dddddd;
+}
+/*-------------------footpanel5----------------------------*/
+.foot-panel4{
+    background-color:#0f1111;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+    
+}
+ul a {
+    display:block ;
+    font-size: 0.78rem;
+    margin: 9px;
+    color: #dddddd;
+}
+/*----------------footpanel6-----------------------*/
+.foot-panel6 {
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    font-size:0.75rem;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.pages{
+   
+   padding-top:25px;
+}
+
+.copyright{
+    padding-top: 5px;
+     
+}
